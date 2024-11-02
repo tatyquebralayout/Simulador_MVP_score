@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador MVP Score</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Simulador MVP Score</h1>
+            <p>Ajuste os parâmetros para calcular o score</p>
+        </div>
+
+        <div class="controls">
+            <input type="file" id="inputJsonFile" accept="application/json">
+            <div class="component-card">
+                <label for="volume">Volume:</label>
+                <input type="number" id="volume" step="0.1">
+            </div>
+            <div class="component-card">
+                <label for="velocidade_engajamento">Velocidade de Engajamento:</label>
+                <input type="number" id="velocidade_engajamento" step="0.1">
+            </div>
+            <div class="component-card">
+                <label for="qualidade">Qualidade:</label>
+                <input type="number" id="qualidade" step="0.1">
+            </div>
+            <div class="component-card">
+                <label for="polaridade">Polaridade:</label>
+                <input type="number" id="polaridade" step="0.1">
+            </div>
+            <div class="component-card">
+                <label for="intensidade">Intensidade:</label>
+                <input type="number" id="intensidade" step="0.1">
+            </div>
+            <div class="component-card">
+                <label for="contexto">Contexto:</label>
+                <input type="number" id="contexto" step="0.1">
+            </div>
+            <div class="component-card">
+                <label for="alcance">Alcance:</label>
+                <input type="number" id="alcance" step="0.1">
+            </div>
+            <div class="component-card">
+                <label for="credibilidade">Credibilidade:</label>
+                <input type="number" id="credibilidade" step="0.1">
+            </div>
+            <div class="component-card">
+                <label for="historico">Histórico:</label>
+                <input type="number" id="historico" step="0.1">
+            </div>
+            <div class="component-card">
+                <label for="momento">Momento:</label>
+                <input type="number" id="momento" step="0.1">
+            </div>
+            <div class="component-card">
+                <label for="velocidade_timing">Velocidade Timing:</label>
+                <input type="number" id="velocidade_timing" step="0.1">
+            </div>
+            <div class="component-card">
+                <label for="oportunidade">Oportunidade:</label>
+                <input type="number" id="oportunidade" step="0.1">
+            </div>
+        </div>
+
+        <div class="results">
+            <h2>Resultado Final</h2>
+            <div class="score-circle" id="finalScore">5.0</div>
+            <button id="calcularScoreButton">Calcular Score</button>
+            <button id="baixarRelatorioButton">Baixar Relatório</button>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
