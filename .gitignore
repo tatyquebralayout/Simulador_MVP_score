@@ -1,8 +1,2 @@
 node_modules/
 .DS_Store
-.env
-/dist
-.idea/
-.vscode/
-*.log
-*.lockcle
