@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "Simulador de score de interação: engajamento, sentimento, influência e timing",
   "scripts": {
-    "start": "live-server"
+    "start": "live-server",
+    "test": "node --test"
   },
   "keywords": [],
   "author": "Tatiana Barros",
