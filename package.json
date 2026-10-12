@@ -7,7 +7,7 @@
   },
   "keywords": [],
   "author": "Tatiana Barros",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "live-server": "^1.2.2"
   }

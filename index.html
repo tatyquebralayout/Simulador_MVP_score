@@ -3,18 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simulador MVP Score</title>
+    <title>Simulador de score de interação · Tatiana Barros</title>
+    <meta name="description" content="Ajuste engajamento, sentimento, influência e timing e veja na hora como cada variável muda o score de uma interação.">
+    <meta name="author" content="Tatiana Barros">
+    <link rel="canonical" href="https://tatyquebralayout.github.io/Simulador_MVP_score/">
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="icon" href="favicon.ico" sizes="any">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="pt_BR">
+    <meta property="og:site_name" content="Tatiana Barros">
+    <meta property="og:title" content="Simulador de score de interação · Tatiana Barros">
+    <meta property="og:description" content="Ajuste engajamento, sentimento, influência e timing e veja na hora como cada variável muda o score de uma interação.">
+    <meta property="og:url" content="https://tatyquebralayout.github.io/Simulador_MVP_score/">
+    <meta property="og:image" content="https://tatyquebralayout.github.io/Simulador_MVP_score/og.png">
+    <meta property="og:image:width" content="1280">
+    <meta property="og:image:height" content="640">
+    <meta property="og:image:alt" content="Simulador de score de interação de Tatiana Barros">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Simulador de score de interação · Tatiana Barros">
+    <meta name="twitter:description" content="Ajuste engajamento, sentimento, influência e timing e veja na hora como cada variável muda o score de uma interação.">
+    <meta name="twitter:image" content="https://tatyquebralayout.github.io/Simulador_MVP_score/og.png">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <div class="container">
+    <main class="container">
         <div class="header">
             <h1>Simulador MVP Score</h1>
             <p>Ajuste os parâmetros para calcular o score</p>
         </div>
 
         <div class="controls">
-            <input type="file" id="inputJsonFile" accept="application/json">
+            <input type="file" id="inputJsonFile" accept="application/json" aria-label="Carregar parâmetros de um arquivo JSON (Load parameters from a JSON file)">
             <div class="component-card">
                 <label for="volume">Volume:</label>
                 <input type="number" id="volume" step="0.1">
@@ -71,7 +91,7 @@
             <button id="calcularScoreButton">Calcular Score</button>
             <button id="baixarRelatorioButton">Baixar Relatório</button>
         </div>
-    </div>
+    </main>
 
     <script src="js/main.js"></script>
 </body>
